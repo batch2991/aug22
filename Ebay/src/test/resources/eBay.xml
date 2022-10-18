@@ -1,0 +1,16 @@
+<suite name="ebay">
+  <test name="ebay_test_ff">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="base.Base"/>
+      <class name="testing.Ebay_Testing"/>
+    </classes>
+  </test>
+  <test name="ebay_test_ch">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+     <class name="base.Base"/>
+      <class name="testing.Ebay_Testing"/>
+    </classes>
+  </test>
+</suite>
