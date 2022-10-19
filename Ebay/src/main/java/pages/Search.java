@@ -9,6 +9,6 @@ public class Search
 	public void addtoCart()
 	{
 		System.out.println("add product to cart");
-	
+	System.out.println("hello");
 	}
 }
